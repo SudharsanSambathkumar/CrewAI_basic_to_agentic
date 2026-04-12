@@ -201,7 +201,7 @@ with st.form("applicant_form"):
 
     extra = st.text_area("Additional data points (optional)",
                           value=sample.get("platform_earnings", ""),
-                          height=60,
+                          height=100,
                           placeholder="Platform earnings, GST returns, property ownership, etc.")
 
     submitted = st.form_submit_button("▶  Run 3-Agent Credit Assessment", type="primary", use_container_width=True)
