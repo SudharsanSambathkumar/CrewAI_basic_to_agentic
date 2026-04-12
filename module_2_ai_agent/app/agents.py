@@ -1,6 +1,7 @@
 from crewai import Agent
 from app.llm import get_analyst_llm, get_strategist_llm
 
+
 _NO_REACT = """You are {role}.
 Goal: {goal}
 {backstory}
